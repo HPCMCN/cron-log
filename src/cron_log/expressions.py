@@ -3,7 +3,7 @@
 from calendar import monthrange
 import re
 
-from cron_log_1.util import asint
+from cron_log.util import asint
 
 __all__ = ('AllExpression', 'RangeExpression', 'WeekdayRangeExpression',
            'WeekdayPositionExpression', 'LastDayOfMonthExpression')

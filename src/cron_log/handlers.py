@@ -9,7 +9,7 @@ import time
 from datetime import datetime, timedelta
 from logging.handlers import BaseRotatingHandler
 
-from cron_log_1.trigger import CronTrigger
+from cron_log.trigger import CronTrigger
 
 
 # noinspection PyUnresolvedReferences,PyPep8Naming,PyTypeChecker

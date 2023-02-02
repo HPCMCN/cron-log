@@ -6,8 +6,8 @@ import six
 from tzlocal import get_localzone
 from datetime import datetime, timedelta
 
-from cron_log_1.util import datetime_ceil, astimezone, localize, normalize
-from cron_log_1.fields import BaseField, MonthField, WeekField, DayOfMonthField, DayOfWeekField, DEFAULT_VALUES
+from cron_log.util import datetime_ceil, astimezone, localize, normalize
+from cron_log.fields import BaseField, MonthField, WeekField, DayOfMonthField, DayOfWeekField, DEFAULT_VALUES
 
 
 class CronTrigger(object):

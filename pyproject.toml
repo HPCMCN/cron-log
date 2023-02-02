@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cron_log"
-version = "1.0.0"
+version = "1.0.1"
 keywords = ["logging", "cron"]
 authors = [
     { name = "hpcm", email = "hpcm@foxmail.com" }
@@ -44,8 +44,8 @@ dependencies = [
 [project.urls]
 homepage = "https://github.com/HPCMCN"
 documentation = "https://github.com/HPCMCN"
-repository = "https://github.com/HPCMCN"
-changelog = "https://github.com/HPCMCN"
+repository = "https://github.com/HPCMCN/cron-log"
+changelog = "https://github.com/HPCMCN/cron-log"
 
 
 [project.optional-dependencies]
