@@ -1,1 +1,1 @@
-# cron-log
+cron logging
