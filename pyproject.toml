@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cron_log"
-version = "1.0.1"
+version = "1.0.3"
 keywords = ["logging", "cron"]
 authors = [
     { name = "hpcm", email = "hpcm@foxmail.com" }
@@ -40,10 +40,10 @@ dependencies = [
     #  "django>2.0; os_name == 'nt'",
 ]
 
-# dynamic = ["version", "description"]
+dynamic = ["version", "description"]
 [project.urls]
-homepage = "https://github.com/HPCMCN"
-documentation = "https://github.com/HPCMCN"
+homepage = "https://github.com/HPCMCN/cron-log"
+documentation = "https://github.com/HPCMCN/cron-log"
 repository = "https://github.com/HPCMCN/cron-log"
 changelog = "https://github.com/HPCMCN/cron-log"
 
